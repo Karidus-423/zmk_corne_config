@@ -36,10 +36,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&bt BT_SEL 0  &kp F1            &kp F2          &kp F3             &kp F4       &kp F5        &kp F6           &kp F7      &kp F8          &kp F9     &kp F10          &kp BSPC
-&bt BT_SEL 1  &kp K_PLAY_PAUSE  &kp C_NEXT      &kp C_VOLUME_UP    &kp K_PASTE  &kp K_CUT     &rgb_ug RGB_HUD  &kp K_MUTE  &kp UP_ARROW    &trans     &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
-&none         &rgb_ug RGB_TOG   &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp K_COPY   &kp K_UNDO    &kp PRINTSCREEN  &kp LEFT    &kp DOWN_ARROW  &kp RIGHT  &trans           &none
-                                                &kp LGUI           &trans       &kp SPACE     &kp RET          &trans      &kp RALT
+&bt BT_SEL 0    &kp F1           &kp F2          &kp F3             &kp F4     &kp F5       &kp F6           &kp F7      &kp F8          &kp F9     &kp F10          &kp BSPC
+&kp LEFT_SHIFT  &kp DELETE       &kp C_NEXT      &kp C_VOLUME_UP    &kp LC(C)  &kp LC(X)    &rgb_ug RGB_HUD  &kp C_MUTE  &kp UP_ARROW    &trans     &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
+&none           &rgb_ug RGB_TOG  &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp LC(V)  &kp LC(Z)    &kp PRINTSCREEN  &kp LEFT    &kp DOWN_ARROW  &kp RIGHT  &trans           &none
+                                                 &kp LGUI           &trans     &kp SPACE    &kp RET          &trans      &kp RALT
             >;
         };
 
@@ -51,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB         &kp EXCL       &kp AT           &kp HASH          &kp DLLR               &kp PRCNT            &kp PLUS         &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3     &kp EQUAL     &kp BSPC
-&kp LEFT_SHIFT  &kp BACKSLASH  &kp LEFT_BRACE   &kp UNDERSCORE    &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET     &kp MINUS        &kp NUMBER_4  &kp N5           &kp KP_NUMBER_6  &kp ASTERISK  &kp CARET
-&none           &kp PIPE       &kp RIGHT_BRACE  &kp SINGLE_QUOTE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET    &kp KP_NUMBER_0  &kp NUMBER_7  &kp KP_NUMBER_8  &kp KP_N9        &kp SLASH     &none
-                                                &kp LGUI          &trans                 &kp SPACE            &kp RET          &trans        &kp RALT
+&kp TAB         &kp EXCL       &kp AT           &kp HASH          &kp DLLR               &kp PRCNT            &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp BSPC
+&kp LEFT_SHIFT  &kp BACKSLASH  &kp LEFT_BRACE   &kp UNDERSCORE    &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET     &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp CARET
+&none           &kp PIPE       &kp RIGHT_BRACE  &kp SINGLE_QUOTE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET    &kp NUMBER_0  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH     &none
+                                                &kp LGUI          &trans                 &kp SPACE            &kp RET       &trans        &kp RALT
             >;
         };
     };
