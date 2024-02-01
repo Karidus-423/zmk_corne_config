@@ -10,12 +10,6 @@
 
 / {
     macros {
-        Workspaces: Workspaces {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "WORKSPACES";
-        };
     };
 
     keymap {
